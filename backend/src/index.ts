@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/token",router)
 
-const server = app.listen(port,()=>{
+const server = app.listen(3000,()=>{
     console.log(`listening on port ${port}`);
 })
 
